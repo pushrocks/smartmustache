@@ -1,0 +1,23 @@
+{
+  "name": "tlt",
+  "version": "1.0.0",
+  "description": "templates done right",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "(npmts)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/pushrocks/tlt.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/pushrocks/tlt/issues"
+  },
+  "homepage": "https://gitlab.com/pushrocks/tlt#README"
+}
