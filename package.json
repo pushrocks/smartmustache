@@ -19,5 +19,15 @@
   "bugs": {
     "url": "https://gitlab.com/pushrocks/tlt/issues"
   },
-  "homepage": "https://gitlab.com/pushrocks/tlt#README"
+  "homepage": "https://gitlab.com/pushrocks/tlt#README",
+  "dependencies": {
+    "@types/mustache": "^0.8.29",
+    "mustache": "^2.3.0",
+    "typings-global": "^1.0.14"
+  },
+  "devDependencies": {
+    "@types/should": "^8.1.30",
+    "should": "^11.1.1",
+    "typings-test": "^1.0.3"
+  }
 }

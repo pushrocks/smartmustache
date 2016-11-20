@@ -5,9 +5,9 @@ templates done right
 We recommend the use of TypeScript for best in class Intellisense
 
 ```javascript
-import * as tlt from 'tlt
+import { Tlt } from 'tlt'
 
-let myTlt = new tlt('my template String for {{somePlaceholder}} and {{anotherPlaceholder}}')
+let myTlt = new Tlt('my template String for {{somePlaceholder}} and {{anotherPlaceholder}}')
 myTlt.getStringFor({
     "somePlaceholder": "pushrocks",
     "anotherPlaceholder": "anotherPlaceholder"
