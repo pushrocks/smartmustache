@@ -2,14 +2,15 @@
 templates done right
 
 ## Availabililty
-[![npm](https://push.rocks/assets/repo-button-npm.svg)](https://www.npmjs.com/package/tlt)
-[![git](https://push.rocks/assets/repo-button-git.svg)](https://gitlab.com/pushrocks/tlt)
-[![git](https://push.rocks/assets/repo-button-mirror.svg)](https://github.com/pushrocks/tlt)
-[![docs](https://push.rocks/assets/repo-button-docs.svg)](https://pushrocks.gitlab.io/tlt/)
+[![npm](https://pushrocks.gitlab.io/assets/repo-button-npm.svg)](https://www.npmjs.com/package/tlt)
+[![git](https://pushrocks.gitlab.io/assets/repo-button-git.svg)](https://GitLab.com/pushrocks/tlt)
+[![git](https://pushrocks.gitlab.io/assets/repo-button-mirror.svg)](https://github.com/pushrocks/tlt)
+[![docs](https://pushrocks.gitlab.io/assets/repo-button-docs.svg)](https://pushrocks.gitlab.io/tlt/)
 
 ## Status for master
-[![build status](https://gitlab.com/pushrocks/tlt/badges/master/build.svg)](https://gitlab.com/pushrocks/tlt/commits/master)
-[![coverage report](https://gitlab.com/pushrocks/tlt/badges/master/coverage.svg)](https://gitlab.com/pushrocks/tlt/commits/master)
+[![build status](https://GitLab.com/pushrocks/tlt/badges/master/build.svg)](https://GitLab.com/pushrocks/tlt/commits/master)
+[![coverage report](https://GitLab.com/pushrocks/tlt/badges/master/coverage.svg)](https://GitLab.com/pushrocks/tlt/commits/master)
+[![npm downloads per month](https://img.shields.io/npm/dm/tlt.svg)](https://www.npmjs.com/package/tlt)
 [![Dependency Status](https://david-dm.org/pushrocks/tlt.svg)](https://david-dm.org/pushrocks/tlt)
 [![bitHound Dependencies](https://www.bithound.io/github/pushrocks/tlt/badges/dependencies.svg)](https://www.bithound.io/github/pushrocks/tlt/master/dependencies/npm)
 [![bitHound Code](https://www.bithound.io/github/pushrocks/tlt/badges/code.svg)](https://www.bithound.io/github/pushrocks/tlt)
@@ -18,7 +19,7 @@ templates done right
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 ## Usage
-We recommend the use of TypeScript for best in class Intellisense
+Use TypeScript for best in class instellisense.
 
 ```javascript
 import { Tlt } from 'tlt'
@@ -32,4 +33,9 @@ let appliedString = myTlt.applyData({
 // appliedString will be 'my horses are awesome!'
 ```
 
-[![npm](https://push.rocks/assets/repo-header.svg)](https://push.rocks)
+For further information read the linked docs at the top of this README.
+
+> MIT licensed | **&copy;** [Lossless GmbH](https://lossless.gmbh)
+| By using this npm module you agree to our [privacy policy](https://lossless.gmbH/privacy.html)
+
+[![repo-footer](https://pushrocks.gitlab.io/assets/repo-footer.svg)](https://push.rocks)

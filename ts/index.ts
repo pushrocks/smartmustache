@@ -1,29 +1,29 @@
-import * as mustache from 'mustache'
+import * as handlebars from 'handlebars'
 
 /**
  * class Tlt allows templates to be used with different sets of data
  */
 export class Tlt {
-    templateString: string
+  template: any
 
-    /**
-     * constructor of class Tlt
-     */
-    constructor(templateStringArg: string) {
-        this.templateString = templateStringArg
-    }
+  /**
+   * constructor of class Tlt
+   */
+  constructor(templateStringArg: string) {
+    this.template = handlebars.compile(templateStringArg)
+  }
 
-    /**
-     * returns template string with data applied
-     */
-    applyData(data: any): string {
-        return mustache.render(this.templateString, data)
-    }
+  /**
+   * returns template string with data applied
+   */
+  applyData(data: any): string {
+    return this.template(data)
+  }
 
-    /**
-     * set a new template string
-     */
-    setTemplate(templateStringArg: string) {
-        this.templateString = templateStringArg
-    }
+  /**
+   * set a new template string
+   */
+  setTemplate(templateStringArg: string) {
+    this.template = handlebars.compile(templateStringArg)
+  }
 }

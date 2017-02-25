@@ -2,7 +2,7 @@
  * class Tlt allows templates to be used with different sets of data
  */
 export declare class Tlt {
-    templateString: string;
+    template: any;
     /**
      * constructor of class Tlt
      */

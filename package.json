@@ -21,13 +21,12 @@
   },
   "homepage": "https://gitlab.com/pushrocks/tlt#README",
   "dependencies": {
-    "@types/mustache": "^0.8.29",
-    "mustache": "^2.3.0",
+    "@types/handlebars": "^4.0.31",
+    "handlebars": "^4.0.6",
     "typings-global": "^1.0.14"
   },
   "devDependencies": {
-    "@types/should": "^8.1.30",
-    "should": "^11.1.1",
+    "smartchai": "^1.0.3",
     "typings-test": "^1.0.3"
   }
 }
