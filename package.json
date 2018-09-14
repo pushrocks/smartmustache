@@ -1,11 +1,13 @@
 {
-  "name": "tlt",
-  "version": "1.0.5",
+  "name": "@pushrocks/tlt",
+  "version": "2.0.1",
   "description": "templates done right",
+  "private": false,
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "test": "(npmts)"
+    "test": "(tstest test/)",
+    "build": "(tsbuild)"
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,10 @@
     "@types/handlebars": "^4.0.39",
     "handlebars": "^4.0.12"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@gitzone/tsbuild": "^2.0.22",
+    "@gitzone/tsrun": "^1.1.12",
+    "@gitzone/tstest": "^1.0.15",
+    "@pushrocks/tapbundle": "^3.0.7"
+  }
 }
