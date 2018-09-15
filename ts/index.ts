@@ -3,7 +3,7 @@ import * as handlebars from 'handlebars';
 /**
  * class Tlt allows templates to be used with different sets of data
  */
-export class Tlt {
+export class SmartMustache {
   template: any;
 
   /**

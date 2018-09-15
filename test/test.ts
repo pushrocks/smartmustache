@@ -1,14 +1,14 @@
 import { tap, expect } from '@pushrocks/tapbundle';
 
-import * as tlt from '../dist/index';
+import * as tlt from '../ts/index';
 
-let testTlt: tlt.Tlt;
+let testMustache: tlt.SmartMustache;
 tap.test('should create a valid instance of tlt', async () => {
-  testTlt = new tlt.Tlt('some awesome {{customString}} that is {{license}} licensed');
-  expect(testTlt).to.be.instanceOf(tlt.Tlt);
+  testMustache = new tlt.SmartMustache('some awesome {{customString}} that is {{license}} licensed');
+  expect(testMustache).to.be.instanceOf(tlt.SmartMustache);
 });
 tap.test('should output a valid string with some data', async () => {
-  let appliedString = testTlt.applyData({
+  let appliedString = testMustache.applyData({
     customString: 'horse',
     license: 'MIT'
   });
