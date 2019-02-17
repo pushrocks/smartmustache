@@ -1,6 +1,6 @@
 {
   "name": "@pushrocks/smartmustache",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "templates done right",
   "private": false,
   "main": "dist/index.js",
