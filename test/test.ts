@@ -4,7 +4,9 @@ import * as tlt from '../ts/index';
 
 let testMustache: tlt.SmartMustache;
 tap.test('should create a valid instance of tlt', async () => {
-  testMustache = new tlt.SmartMustache('some awesome {{customString}} that is {{license}} licensed');
+  testMustache = new tlt.SmartMustache(
+    'some awesome {{customString}} that is {{license}} licensed'
+  );
   expect(testMustache).to.be.instanceOf(tlt.SmartMustache);
 });
 tap.test('should output a valid string with some data', async () => {

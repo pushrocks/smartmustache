@@ -1,5 +1,15 @@
 {
   "npmci": {
     "npmAccessLevel": "public"
+  },
+  "gitzone": {
+    "module": {
+      "githost": "gitlab.com",
+      "gitscope": "pushrocks",
+      "gitrepo": "smartmustache",
+      "shortDescription": "templates done right",
+      "npmPackagename": "@pushrocks/smartmustache",
+      "license": "MIT"
+    }
   }
 }
