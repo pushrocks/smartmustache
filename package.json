@@ -23,12 +23,23 @@
   },
   "homepage": "https://gitlab.com/pushrocks/tlt#README",
   "dependencies": {
-    "handlebars": "^4.1.0"
+    "handlebars": "^4.4.5"
   },
   "devDependencies": {
-    "@gitzone/tsbuild": "^2.1.8",
-    "@gitzone/tsrun": "^1.1.17",
-    "@gitzone/tstest": "^1.0.18",
-    "@pushrocks/tapbundle": "^3.0.7"
-  }
+    "@gitzone/tsbuild": "^2.1.17",
+    "@gitzone/tsrun": "^1.2.8",
+    "@gitzone/tstest": "^1.0.28",
+    "@pushrocks/tapbundle": "^3.0.13"
+  },
+  "files": [
+    "ts/**/*",
+    "ts_web/**/*",
+    "dist/**/*",
+    "dist_web/**/*",
+    "dist_ts_web/**/*",
+    "assets/**/*",
+    "cli.js",
+    "npmextra.json",
+    "readme.md"
+  ]
 }
