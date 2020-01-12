@@ -23,13 +23,13 @@
   },
   "homepage": "https://gitlab.com/pushrocks/tlt#README",
   "dependencies": {
-    "handlebars": "^4.4.5"
+    "handlebars": "^4.7.1"
   },
   "devDependencies": {
     "@gitzone/tsbuild": "^2.1.17",
     "@gitzone/tsrun": "^1.2.8",
     "@gitzone/tstest": "^1.0.28",
-    "@pushrocks/tapbundle": "^3.0.13"
+    "@pushrocks/tapbundle": "^3.2.0"
   },
   "files": [
     "ts/**/*",
