@@ -3,8 +3,8 @@
   "version": "2.0.9",
   "description": "templates done right",
   "private": false,
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "dist_ts/index.js",
+  "typings": "dist_ts/index.d.ts",
   "scripts": {
     "test": "(tstest test/)",
     "build": "(tsbuild)"
@@ -23,23 +23,27 @@
   },
   "homepage": "https://gitlab.com/pushrocks/tlt#README",
   "dependencies": {
-    "handlebars": "^4.7.1"
+    "handlebars": "^4.7.7"
   },
   "devDependencies": {
-    "@gitzone/tsbuild": "^2.1.17",
-    "@gitzone/tsrun": "^1.2.8",
-    "@gitzone/tstest": "^1.0.28",
-    "@pushrocks/tapbundle": "^3.2.0"
+    "@gitzone/tsbuild": "^2.1.25",
+    "@gitzone/tsrun": "^1.2.12",
+    "@gitzone/tstest": "^1.0.52",
+    "@pushrocks/tapbundle": "^3.2.14"
   },
   "files": [
     "ts/**/*",
     "ts_web/**/*",
     "dist/**/*",
-    "dist_web/**/*",
+    "dist_*/**/*",
+    "dist_ts/**/*",
     "dist_ts_web/**/*",
     "assets/**/*",
     "cli.js",
     "npmextra.json",
     "readme.md"
+  ],
+  "browserslist": [
+    "last 1 chrome versions"
   ]
 }
